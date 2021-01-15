@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="./css/style-project.css" rel="stylesheet">
+  <link href="./css/style-header.css" rel="stylesheet">
+  <style>
+  @import url("https://use.typekit.net/leu0xrz.css");
+  </style>
+
+  <title>Alice Vedrenne</title>
+</head>
+<body>
+  <div class="page-debut">
+    <a href="./index.html"><p class="page-debut__heading">Coucou</p></a>
+  </div>
+
+  <div class="header">
+    <div class="header__larmes">
+      <img name = "oeilAnim" class="header__larmes__yeux" src="images/oeil1.png" id="cligne">
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav--ul">
+        <li class="header__nav__link"><a href="./wall.html">A PROPOS</a></li>
+        <li class="header__nav__link" ><a href="./peinture.html">PEINTURE</a></li>
+        <li class="header__nav__link"><a href="./code.html">CODE</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="project">
+    <ul class="project__list">
+      <li class="project__list__element" id="pico"><a href="#pico-proj">Un jeu vidéo incroyable</a></li>
+      <li class="project__list__element" id="acro"><a href="#acro-proj">Acrostiches Fun</a></li>
+      <li class="project__list__element" id="epilepsy"><a href="#epil-proj">Epilepsy Machine</a></li>
+    </ul>
+
+    <div class="project__img">
+      <img name="imgCode" src="" id="img-code" class="project__img--sizer ">
+    </div>
+
+  </div>
+
+  <div class="demos">
+
+    <div class="demos__proj" id="pico-proj">
+      <button id="quit"><a href="./code.html">X</a></button>
+      <h3 class="demos__proj__title">Un jeu vidéo incroyable</h3>
+      <div class="demos__proj__bloc">
+        <div class="demos__proj__bloc__text">
+          <p>Ce jeu vidéo a été réalisé via PICO-8, en collaboration avec Salma El-Mourabet et Joanna Dias.
+          Il est jouable en ligne. Le but est de traverser toutes les salles.</p>
+            <a href="https://github.com/Salma116/Tresor"><img src="images/logo/GitHub-Mark-64px.png"></a>
+          </div>
+          <div class="demos__proj__bloc__illubloc">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <img src="./images/code/pico2.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="./images/code/pico3.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="./images/code/pico4.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="./images/code/pico5.png" style="width:100%">
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="demos__proj" id="acro-proj">
+        <button id="quit"><a href="./code.html">X</a></button>
+        <h3 class="demos__proj__title">Acrostiches Fun</h3>
+        <div class="demos__proj__bloc">
+          <div class="demos__proj__bloc__text">
+            <p>Un petit programme pour créer des acrostiches !</p>
+            <a href="https://github.com/aliceKatkout/Acrostiches-Fun"><img src="images/logo/GitHub-Mark-64px.png"></a>
+          <img src="./images/logo/icons8-javascript-48.png">
+          <img src="./images/logo/icons8-html-5-48.png">
+        </div>
+          <div class="demos__proj__bloc__illubloc">
+            <img class="demos__proj__bloc__illubloc--img" src="./images/code/acro1.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="demos__proj" id="epil-proj">
+        <button id="quit"><a href="./code.html">X</a></button>
+        <h3 class="demos__proj__title">Epilepsy Machine</h3>
+        <div class="demos__proj__bloc">
+          <div class="demos__proj__bloc__text">
+            <p>Projet inutile avec P5.js : gare à la crise d'épilepsie.</p>
+            <a href="https://github.com/aliceKatkout/Epilepsy"><img src="images/logo/GitHub-Mark-64px.png"></a>
+            <img src="./images/logo/icons8-javascript-48.png">
+          </div>
+          <div class="demos__proj__bloc__illubloc">
+            <img class="demos__proj__bloc__illubloc--img" src="./images/code/epil2.png" />
+            <img class="demos__proj__bloc__illubloc--img" src="./images/code/epil1.png" />
+            <img class="demos__proj__bloc__illubloc--img" src="./images/code/epil3.png" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="./scripts/change-img.js" type="text/javascript"></script>
+    <script src="./scripts/yeuzanim.js" type="text/javascript"></script>
+
+
+
+  </body>
+
+
+
+  </html>

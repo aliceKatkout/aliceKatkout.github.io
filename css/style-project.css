@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "minecraftiaregular";
+  src: url("../polices/minecraftia-regular-webfont.woff2") format("woff2"), url("../polices/minecraftia-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #198B90;
+  transform: scale(1, 1.1);
+}
+
+body {
+  overflow-y: hidden;
+  font-family: source-sans-pro, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.page-debut {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 3vw;
+  transform: translate(-50%, -50%);
+}
+.page-debut__heading {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-left: 2%;
+  background-color: #000000;
+  color: white;
+  font-size: 3em;
+  margin: 5px;
+  max-width: 110px;
+  padding: 5px;
+}
+
+.project {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project__list {
+  width: 40vw;
+  margin-top: 20%;
+  height: 100vh;
+}
+.project__list__element {
+  margin-top: 1vh;
+}
+.project__img {
+  margin-top: 5vh;
+}
+.project__img--sizer {
+  width: 40vw;
+  border-radius: 10px;
+}
+
+.project__list__element:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#quit {
+  transform: rotate(90deg);
+  margin-top: 3vh;
+  margin-left: -5vw;
+  position: absolute;
+  font-size: 3em;
+  background-color: #000000;
+  color: white;
+  display: block;
+}
+
+.demos__proj {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.demos__proj__title {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.demos__proj__bloc {
+  display: flex;
+  flex-direction: row;
+}
+.demos__proj__bloc__text {
+  width: 40vw;
+}
+.demos__proj__bloc__text img {
+  width: 50px;
+}
+.demos__proj__bloc__illubloc {
+  width: 40vw;
+}
+.demos__proj__bloc__illubloc--img {
+  width: 40vw;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-radius: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style-project.css.map */

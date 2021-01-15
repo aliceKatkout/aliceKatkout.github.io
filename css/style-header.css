@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "fake_receiptregular";
+  src: url("../polices/fake_receipt-webfont.woff2") format("woff2"), url("../polices/fake_receipt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "minecraftiaregular";
+  src: url("../polices/minecraftia-regular-webfont.woff2") format("woff2"), url("../polices/minecraftia-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #198B90;
+  transform: scale(1, 1.1);
+}
+
+.header {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100vw;
+  height: 15vh;
+}
+.header__larmes {
+  margin-right: 10vw;
+}
+.header__larmes__yeux {
+  width: 20vw;
+  margin: 5%;
+}
+.header__nav {
+  display: flex;
+  flex: auto;
+}
+.header__nav--ul {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  margin-left: 20%;
+  padding: 2px;
+}
+.header__nav__link {
+  flex: auto;
+  display: block;
+  margin: auto;
+  padding: 2px;
+}
+
+.header__nav__link:hover {
+  transform: scale(1, 1.1);
+}
+
+/*# sourceMappingURL=style-header.css.map */

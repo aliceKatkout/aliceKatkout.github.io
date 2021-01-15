@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliceKatkout/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliceKatkout/portfolio/issues"
+  },
+  "homepage": "https://github.com/aliceKatkout/portfolio#readme",
+  "dependencies": {
+    "masonry-layout": "^4.2.2",
+    "swup": "^2.0.14"
+  }
+}

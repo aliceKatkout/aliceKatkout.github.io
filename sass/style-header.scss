@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'fake_receiptregular';
+    src: url('../polices/fake_receipt-webfont.woff2') format('woff2'),
+         url('../polices/fake_receipt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'minecraftiaregular';
+    src: url('../polices/minecraftia-regular-webfont.woff2') format('woff2'),
+         url('../polices/minecraftia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$color-fun: #198B90;
+
+$font-stack: source-sans-pro, Helvetica, sans-serif;
+
+
+a:link {
+
+  text-decoration: none;
+
+}
+ a:visited{
+   color: black;
+ }
+ a:hover{
+   color :$color-fun;
+   transform: scale(1,1.1);
+
+ }
+
+
+.header{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100vw;
+  height: 15vh;
+  &__larmes{
+    margin-right: 10vw;
+    &__yeux{
+      width: 20vw;
+      margin: 5%;
+    }
+  }
+  &__nav{
+
+    display: flex;
+    flex:auto;
+    &--ul {
+      display: flex;
+      flex:auto;
+      flex-direction: row;
+      margin-left: 20%;
+      padding: 2px;
+    }
+
+    &__link{
+      flex: auto;
+
+      display: block;
+      margin:auto;
+      padding: 2px;
+
+    }
+  }
+}
+
+.header__nav__link:hover{
+//  transform: translate3d(3px, 0, 0px);
+  transform: scale(1,1.1);
+
+}

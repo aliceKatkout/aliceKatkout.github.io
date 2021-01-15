@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "fake_receiptregular";
+  src: url("../polices/fake_receipt-webfont.woff2") format("woff2"), url("../polices/fake_receipt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "minecraftiaregular";
+  src: url("../polices/minecraftia-regular-webfont.woff2") format("woff2"), url("../polices/minecraftia-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: source-sans-pro, Helvetica, sans-serif;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #198B90;
+  transform: scale(1, 1.1);
+}
+
+#special-body-accueil {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.welcome {
+  top: 0;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  display: block;
+}
+.welcome__alice {
+  font-family: "minecraftiaregular";
+  font-size: 5em;
+  background-color: #000000;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: block;
+}
+
+.zoom {
+  animation: scale 40s linear infinite;
+}
+
+@keyframes scale {
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.page-debut {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 3vw;
+  transform: translate(-50%, -50%);
+}
+.page-debut__heading {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-left: 2%;
+  background-color: #000000;
+  color: white;
+  font-size: 3em;
+  margin: 5px;
+  max-width: 110px;
+  padding: 5px;
+}
+
+#body-paint {
+  width: 95%;
+  margin: auto;
+}
+
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+.grid-sizer,
+.grid-item {
+  z-index: -1;
+  width: 50%;
+  margin-bottom: 1.5%;
+}
+
+.grid-item--width2 {
+  width: 101%;
+}
+
+.grid-item--width3 {
+  width: 32.5%;
+}
+
+.grid-item--row {
+  display: flex;
+  flex: auto;
+}
+
+.grid-item {
+  float: right;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 97%;
+}
+
+b {
+  color: pink;
+  font-size: 1.5em;
+}
+
+.mot-link {
+  font-weight: bold;
+}
+
+.container {
+  overflow-y: scroll;
+  display: flex;
+  margin-top: 3vh;
+}
+
+.presentation {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+.presentation__title {
+  margin-top: 3vh;
+  font-weight: bold;
+  font-size: 2em;
+}
+.presentation__text {
+  margin-top: 3vh;
+  font-size: 1em;
+}
+
+.footer {
+  margin-top: 3vh;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__img--logo {
+  width: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
