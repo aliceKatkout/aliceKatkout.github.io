@@ -1,16 +1,4 @@
 
-// var elem = document.querySelector('.grid');
-// // var msnry = new Masonry( elem, {"columnWidth": ".grid-sizer", "itemSelector": ".grid-item", "percentPosition": "true"
-// // });
-//
-//
-//
-// var imgLoad = imagesLoaded( elem, function() {
-//   var msnry = new Masonry( elem, {"columnWidth": ".grid-sizer", "itemSelector": ".grid-item", "percentPosition": "true"
-//   });
-//   console.log('Les images sont chargées')
-//   });
-
 $(function(){
     console.log("page chargee!")
     var container= document.querySelector('.grid');

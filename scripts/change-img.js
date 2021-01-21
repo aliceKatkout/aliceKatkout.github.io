@@ -1,6 +1,7 @@
 let pico = document.getElementById("pico");
 let acro =  document.getElementById("acro");
 let epilepsy = document.getElementById("epilepsy");
+let chatbot = document.getElementById("chatbot");
 
 pico.addEventListener("mouseover", function(event) {
   document.imgCode.src="./images/code/pico1.png"
@@ -12,6 +13,10 @@ acro.addEventListener("mouseover", function(event) {
 
 epilepsy.addEventListener("mouseover", function(event) {
   document.imgCode.src="./images/code/epilepsy-avion.png"
+});
+
+chatbot.addEventListener("mouseover", function(event) {
+  document.imgCode.src="./images/code/chat1.png"
 });
 
 var slideIndex = 1;
