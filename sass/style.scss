@@ -58,7 +58,6 @@ a:link {
     font-size: 2em;
     background-color: #000000;
     position: absolute;
-    text-align: center;
     top: 10%;
     left: 10%;
     color: white;
@@ -66,19 +65,19 @@ a:link {
   }
 }
 
-.zoom {
-  animation: scale 40s linear infinite;
-}
-
-@keyframes scale {
-  50% {
-    -webkit-transform:scale(1.2);
-    -moz-transform:scale(1.2);
-    -ms-transform:scale(1.2);
-    -o-transform:scale(1.2);
-    transform:scale(1.2);
-  }
-}
+// .zoom {
+//   animation: scale 40s linear infinite;
+// }
+//
+// @keyframes scale {
+//   50% {
+//     -webkit-transform:scale(1.2);
+//     -moz-transform:scale(1.2);
+//     -ms-transform:scale(1.2);
+//     -o-transform:scale(1.2);
+//     transform:scale(1.2);
+//   }
+// }
 
 //BOUTON ALICE DrOITE
 .page-debut {
