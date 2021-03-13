@@ -49,36 +49,18 @@ a:link {
 
 
 //INDEX
-#special-body-accueil {
-  color: white;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
 
 
 .welcome {
-  top: 0;
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  //background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/toile2020gde.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  display: block;
+
   &__alice{
     font-family: 'minecraftiaregular';
-    font-size: 5em;
+    font-size: 2em;
     background-color: #000000;
     position: absolute;
     text-align: center;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     transform: translate(-50%, -50%);
     color: white;
     display: block;
