@@ -41,29 +41,13 @@ a:hover {
   overflow: hidden;
 }
 
-.welcome {
-  top: 0;
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  display: block;
-}
 .welcome__alice {
-  font-family: "minecraftiaregular";
-  font-size: 5em;
+  font-size: 3em;
   background-color: #000000;
   position: absolute;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 5%;
+  left: 5%;
   color: white;
   display: block;
 }
